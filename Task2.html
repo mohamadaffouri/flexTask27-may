@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .mainDiv{
+            background-color: #1B203D;
+            display: flex;
+            width: 100%;
+            height: 100vh;
+        }
+        .navDiv{
+            width: 20%;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-color:#272C4A;
+            align-items: center;
+            
+        }
+        .secondDiv{
+            width: 80%;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+           
+        }
+        .headerDiv{
+            display: flex;
+            justify-content: space-between;
+           color: white;
+           padding-left:12px;
+            padding-right: 12px;
+            padding-top: 12px;
+        }
+        .cardsDiv{
+            padding-left:12px;
+            padding-right: 12px;
+            display: flex;
+            justify-content: space-between;
+
+        }
+        .cardsDiv>div{
+            display: flex;
+            width: 23%;
+            height: 15vh;
+            background-color:#272C4A ;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .lastCardsDiv{
+            display: flex;
+            padding-left:12px;
+            padding-right: 12px;
+            justify-content: space-between;
+            height:50vh;
+        }
+        .lastDiv1{
+            width:59%;
+            height: 100%;
+            background-color:#272C4A ;
+            
+
+        }
+        .lastDiv2{
+            width: 40%;
+            height: 100%;
+            background-color:#272C4A ;
+       
+        }
+        h1{color: white; padding:12px;}
+     
+        ul {
+  list-style-type: none;
+  margin: 0;
+text-align: center;
+  width:100%;
+  background-color: #272C4A;
+}
+
+li a {
+  display: block;
+  color: gainsboro;
+  padding: 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #1B203D;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  
+  width: 100%;
+  height:100%;
+  color: white;
+ 
+ 
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: .5px solid #ddddddb8;
+}
+        
+    </style>
+</head>
+<body>
+    <div class="mainDiv">
+        <div class="navDiv">
+            <h1><span style="color: red;">M</span>-SoftTech</h1>
+            <ul>
+                <li><a href="#home">Dashboard</a></li>
+                <li><a href="#news">Customers</a></li>
+                <li><a href="#contact">Projects</a></li>
+                <li><a href="#about">Orders</a></li>
+                <li><a href="#home">Inventory</a></li>
+                <li><a href="#news">Accounts</a></li>
+                <li><a href="#contact">Tasks</a></li>
+            
+              </ul>
+        </div>
+        <div class="secondDiv">
+            <div class="headerDiv"> <div style="display: flex;"> <i class="fa-solid fa-list-check fa-2xl"  style="color: #ffffff; padding:12px;"></i> <h2>Dashboard</h2></div> <div><p>Manoj Adhikari</p> <p>UI /UX DESIGNR</p></div></div>
+            <div class="cardsDiv">
+                <div>
+                    <div>
+                        <p style="font-size: 32px; color: white;">67</p>
+                        <p style="color: white;">Customers</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-users fa-2xl" style="color: #ffffff;"></i>
+
+
+                    </div>
+                    
+                </div>
+                <div>
+                    <div>
+                        <p style="font-size: 40px; color: white;">88</p>
+                        <p style="color: white;">Projects</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-list-check fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div>
+                        <p style="font-size: 40px; color: white;">99</p>
+                        <p style="color: white;">Orders</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-cart-shopping fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                    
+                </div>
+                <div>
+                    <div>
+                        <p style="font-size: 40px; color: white;">78</p>
+                        <p style="color: white;">Tasks</p>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-bars-progress fa-2xl" style="color: #ffffff;"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="lastCardsDiv">
+                
+                <div class="lastDiv1">
+                    <div style="padding: 15px; font-size: 40px; color: red;">  <p>Top Selling Projects</p></div>
+                  
+                    <div style="padding: 15px; display: flex; justify-content: flex-end;
+                    align-items: flex-end; height: 80%;">
+                    <table>
+                        <tr>
+                          <th>Company</th>
+                          <th>Contact</th>
+                        <th>Country</th>
+                        </tr>
+                        <tr>
+                          <td>Peter</td>
+                          <td>Griffin</td>
+                          <td>Germany</td>
+                        </tr>
+                        <tr>
+                          <td>Lois</td>
+                          <td>Griffin</td>
+                          <td>Mexico</td>
+                        </tr>
+                        <tr>
+                          <td>Joe</td>
+                          <td>Swanson</td>
+                          <td>Austria</td>
+                        </tr>
+                        <tr>
+                          <td>Cleveland</td>
+                          <td>Brown</td>
+                          <td>Uk</td>
+                        </tr>
+                        
+                      </table>
+                    </div>
+
+                </div>
+                <div class="lastDiv2">
+                    <div style="padding: 15px; font-size: 40px; color: red;">  <p>Total sale</p></div>
+                  
+                    <div style="padding: 15px;      display: flex; justify-content: center;
+                    align-items: center; height: 80%;">
+                   <svg height="150" width="150" xmlns="http://www.w3.org/2000/svg">
+                    <circle r="45" cx="50" cy="50" stroke="red" stroke-width="3" fill="white" />
+                 
+                  </svg> 
+                    </div>
+
+                  
+
+                </div>
+            </div>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
